@@ -1,0 +1,26 @@
+@import url('http://fonts.cdnfonts.com/css/nunito-sans');
+
+:root {
+    --dark-blue: #000F23;
+    --dark-purple: #282960;
+    --lighter-purple: #421371;
+    --pink: #EA267A;
+    --turquoise: #2FFEE1;
+    --white: #FFFFFF;
+
+    font-family: 'Nunito Sans';
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
