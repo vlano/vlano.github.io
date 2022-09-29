@@ -55,7 +55,7 @@ span {
   font-size: 5rem;
   line-height: 7rem;
   letter-spacing: 0.05rem;
-  padding: 5rem 0rem 0rem 5rem;
+  padding: 5rem 0rem 0rem 9rem;
 }
 
 colored {

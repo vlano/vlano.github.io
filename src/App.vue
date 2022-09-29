@@ -27,8 +27,8 @@ function scrollFunction() {
     document.getElementById("logo").style.height = "40px";
   } else {
     document.getElementById("navbar").style.backgroundColor = "transparent";
-    document.getElementById("navbar").style.paddingTop = "4.5rem";
-    document.getElementById("logo").style.height = "100px";
+    document.getElementById("navbar").style.paddingTop = "6rem";
+    document.getElementById("logo").style.height = "9rem";
   }
 }
 </script>
@@ -78,17 +78,14 @@ name {
 
 header {
   width: 100vw;
-  height: 70vh;
-  max-height: 60rem;
+  height: 100vh;
   position: relative;
   background: url("/design/headerBg.svg") no-repeat right;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  padding-left: 9rem;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
   gap: 2.5rem;
+  overflow: hidden;
 }
 
 #vrGuy {
@@ -100,6 +97,8 @@ header {
 }
 
 #mainText {
+  margin-top: 24rem;
+  margin-left: 9rem;
   font-weight: 700;
   display: flex;
   flex-direction: column;
@@ -116,6 +115,7 @@ header {
 }
 
 .socials {
+  margin-left: 9rem;
   align-items: start;
   display: flex;
   flex-direction: row;
@@ -144,10 +144,10 @@ nav {
 }
 
 #logo {
-  height: 100px;
-  width: 100px;
+  width: 9rem;
+  height: 9rem;
   position: absolute;
-  left: 9rem;
+  left: 8rem;
   cursor: pointer;
   transition: 0.4s;
 }

@@ -34,7 +34,6 @@ section {
 
 .socials {
   margin-left: auto;
-  padding-right: 9rem;
   display: flex;
   gap: 1rem;
   justify-content: flex-end;
