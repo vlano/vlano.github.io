@@ -25,10 +25,11 @@ section {
   font-size: 1.5rem;
   line-height: 3rem;
   padding-left: 9rem;
+  padding-right: 9rem;
   display: flex;
   align-items: center;
   height: 10rem;
-  background-color: #151515;
+  background-color: var(--dark-grey);
 }
 
 .socials {

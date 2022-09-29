@@ -7,6 +7,7 @@
     --pink: #EA267A;
     --turquoise: #2FFEE1;
     --white: #FFFFFF;
+    --dark-grey: #151515;
 
     font-family: 'Nunito Sans';
     color: white;
@@ -21,6 +22,7 @@ body {
     margin: 0;
     display: flex;
     place-items: center;
-    min-width: 320px;
-    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-color: var(--dark-grey);
 }

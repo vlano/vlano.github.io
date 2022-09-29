@@ -11,7 +11,7 @@
             of
             medical scans that aims to strengthens the doctor-patient relationship and improve the medical
             education." imageUrl="/projectPhotos/zMed/promo.png" siteUrl="https://zmed.hu"/>
-      <Project title="Terminal Digit" description="Developed a cross-platform application using Angular and Ionic that optimizes the production and
+      <Project title="Terminal Digit" description="Developed a cross-platform front-end for an application using Angular and Ionic that optimizes the production and
             waste-management of shutter factories, while making the employees work easier with visualizations and easy
             to
             understand instructions." imageUrl="/projectPhotos/TDT/banner.png" siteUrl="https://terminaldigit.tech"/>

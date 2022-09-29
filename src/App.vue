@@ -52,7 +52,7 @@ function scrollFunction() {
       <img class="link" src="/linkedin-icon.svg" @click="OpenLink(`https://www.linkedin.com/in/norbertvladika/`)">
       <img class="link" src="/github-icon.svg" @click="OpenLink(`https://github.com/vlano`)">
     </div>
-    <div id="gradientDiv"><img src="/design/VrGuy.png"></div>
+    <img id="vrGuy" src="/design/VrGuy.png">
   </header>
   <main>
     <Skills id="skills"/>
@@ -77,9 +77,12 @@ name {
 }
 
 header {
-  height: 45rem;
+  width: 100vw;
+  height: 70vh;
+  max-height: 60rem;
   position: relative;
-  background-color: var(--dark-blue);
+  background: url("/design/headerBg.svg") no-repeat right;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   padding-left: 9rem;
@@ -88,16 +91,7 @@ header {
   gap: 2.5rem;
 }
 
-#gradientDiv {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
-  height: 100%;
-  background: radial-gradient(50% 50% at 50% 50%, var(--pink) 0%, var(--dark-blue) 100%);
-}
-
-#gradientDiv img {
+#vrGuy {
   height: 100%;
   width: auto;
   position: absolute;
