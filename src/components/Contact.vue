@@ -43,6 +43,23 @@ section span {
 }
 
 @media screen and (max-width: 900px) {
+  .titleText {
+    max-width: 95%;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.03rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .subText {
+    display: block;
+    max-width: 90%;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+
   section {
     padding-left: 1rem;
     padding-top: 7rem;
@@ -52,7 +69,7 @@ section span {
   }
 
   section span {
-    min-width: 90%;
+    min-width: 0;
   }
 }
 </style>

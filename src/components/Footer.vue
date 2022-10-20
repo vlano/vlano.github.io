@@ -48,7 +48,7 @@ img {
 @media screen and (max-width: 900px) {
   section {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -66,8 +66,8 @@ img {
   }
 
   img {
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 2.2rem;
+    width: 2.2rem;
     cursor: pointer;
   }
 }

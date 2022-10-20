@@ -194,7 +194,6 @@ img {
 }
 
 @media screen and (max-width: 900px) {
-
   nav {
     position: absolute;
     width: 100%;
@@ -244,14 +243,14 @@ img {
     display: flex;
     flex-direction: column;
     align-items: start;
-    font-size: 5rem;
+    font-size: 3rem;
     gap: 1rem;
-    width: 38rem;
+    width: 100%;
     z-index: 10;
   }
 
   .subText {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
   }
 

@@ -69,8 +69,8 @@ colored {
 @media screen and (max-width: 900px) {
   #projectContainer {
     color: var(--white);
-    font-size: 24px;
-    padding: 2rem;
+    font-size: 2rem;
+    padding: 5vw;
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
@@ -80,7 +80,7 @@ colored {
   span {
     display: block;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 7rem;
     letter-spacing: 0.05rem;
     margin: 0;

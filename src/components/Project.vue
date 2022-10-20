@@ -91,7 +91,7 @@ span {
 
   article {
     transition: 0.5s;
-    height: 53rem;
+    height: 44rem;
     width: 100%;
     min-width: 0rem;
     position: relative;
@@ -111,15 +111,18 @@ span {
 
   header {
     text-transform: uppercase;
-    font-size: 3rem;
-    padding: 3rem;
+    font-size: 2rem;
+    width: 16rem;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-right: 0;
   }
 
   span {
-    max-width: 62%;
+    max-width: 65vw;
     display: block;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     padding-left: 3rem;
   }
 
@@ -127,7 +130,7 @@ span {
     letter-spacing: 0.2rem;
     text-transform: uppercase;
     position: absolute;
-    bottom: 22rem;
+    bottom: 20.5rem;
   }
 
   .link:hover {

@@ -53,12 +53,17 @@ img {
 }
 
 @media screen and (max-width: 1200px) {
+  img {
+    height: 50px;
+    filter: grayscale(90%);
+  }
+
   .technology span {
     display: none;
   }
 
   .skill span {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
     margin-left: auto;
     color: var(--white);
