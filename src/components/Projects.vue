@@ -39,6 +39,9 @@ export default {
 </script>
 
 <style scoped>
+section {
+  width: 100%;
+}
 
 #projectContainer {
   color: var(--white);
@@ -56,9 +59,34 @@ span {
   line-height: 7rem;
   letter-spacing: 0.05rem;
   padding: 5rem 0rem 0rem 9rem;
+  margin: 0;
 }
 
 colored {
   color: var(--turquoise);
+}
+
+@media screen and (max-width: 900px) {
+  #projectContainer {
+    color: var(--white);
+    font-size: 24px;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  span {
+    display: block;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 7rem;
+    letter-spacing: 0.05rem;
+    margin: 0;
+    padding: 2rem 0 0;
+    width: 100%;
+    text-align: center;
+  }
 }
 </style>

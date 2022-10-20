@@ -44,4 +44,32 @@ img {
   width: 2rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+  section {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    height: 10rem;
+    background-color: var(--dark-grey);
+  }
+
+  .socials {
+    margin-left: auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+  }
+
+  img {
+    height: 3.5rem;
+    width: 3.5rem;
+    cursor: pointer;
+  }
+}
+
 </style>

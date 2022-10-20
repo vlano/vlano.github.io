@@ -21,6 +21,9 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
+  if (screen.width < 900)
+    return;
+
   if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
     document.getElementById("navbar").style.backgroundColor = "rgba(0, 0, 0, 0.6)";
     document.getElementById("navbar").style.paddingTop = "0";
@@ -35,8 +38,8 @@ function scrollFunction() {
 
 <template>
   <nav id="navbar">
+    <img id="logo" src="/logo.svg" @click="ScrollToTop()"/>
     <div id="menuContainer">
-      <img id="logo" src="/logo.svg" @click="ScrollToTop()"/>
       <a href="#header">Home</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
@@ -77,8 +80,8 @@ name {
 }
 
 header {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: relative;
   background: url("/design/headerBg.svg") no-repeat right;
   background-size: cover;
@@ -121,6 +124,7 @@ header {
   flex-direction: row;
   gap: 3.5rem;
   padding-left: 1rem;
+  padding-bottom: 4rem;
   z-index: 10;
 }
 
@@ -188,4 +192,79 @@ img {
 .link {
   cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+
+  nav {
+    position: absolute;
+    width: 100%;
+    padding-top: 4.5rem;
+    z-index: 15;
+    transition: 0.4s;
+  }
+
+  #menuContainer {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url("/design/headerBg-mobile.svg") no-repeat right;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    overflow: hidden;
+  }
+
+  #vrGuy {
+    display: none;
+  }
+
+  #logo {
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    left: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  #mainText {
+    margin-top: 24rem;
+    margin-left: 1rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 5rem;
+    gap: 1rem;
+    width: 38rem;
+    z-index: 10;
+  }
+
+  .subText {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
+  .socials {
+    margin-left: 1rem;
+    align-items: start;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    padding-left: 1rem;
+    padding-bottom: 4rem;
+    z-index: 10;
+  }
+
+  .socials img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
 </style>

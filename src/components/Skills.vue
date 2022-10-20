@@ -20,11 +20,11 @@ export default {
 <style scoped>
 section {
   height: 14rem;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background: linear-gradient(90deg, var(--dark-purple) 0%, var(--dark-blue) 100%);
 }
-
 
 </style>

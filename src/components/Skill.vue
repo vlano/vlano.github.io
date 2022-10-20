@@ -51,4 +51,19 @@ img {
   color: var(--white);
   font-size: 3rem;
 }
+
+@media screen and (max-width: 1200px) {
+  .technology span {
+    display: none;
+  }
+
+  .skill span {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    color: var(--white);
+    opacity: 0.7;
+  }
+}
+
 </style>

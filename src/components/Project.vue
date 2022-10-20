@@ -76,4 +76,62 @@ span {
 .link:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+  img {
+    position: absolute;
+    background-color: var(--turquoise);
+    bottom: 0;
+    right: 0;
+    width: 20rem;
+    height: 20rem;
+    filter: grayscale(100%);
+    transition: 0.5s;
+  }
+
+  article {
+    transition: 0.5s;
+    height: 53rem;
+    width: 100%;
+    min-width: 0rem;
+    position: relative;
+    border: 0.4rem solid var(--turquoise);
+    border-radius: 0.8rem;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  article:hover {
+    background-color: rgba(40, 41, 96, 0.34);;
+  }
+
+  article:hover img {
+    filter: grayscale(0%);
+  }
+
+  header {
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 3rem;
+  }
+
+  span {
+    max-width: 62%;
+    display: block;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-left: 3rem;
+  }
+
+  .link {
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 22rem;
+  }
+
+  .link:hover {
+    cursor: pointer;
+  }
+}
 </style>

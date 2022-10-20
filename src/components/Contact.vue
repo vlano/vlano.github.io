@@ -41,4 +41,18 @@ section span {
   font-size: 3rem;
   line-height: 4rem;
 }
+
+@media screen and (max-width: 900px) {
+  section {
+    padding-left: 1rem;
+    padding-top: 7rem;
+    color: black;
+    height: 50rem;
+    background: linear-gradient(90deg, var(--turquoise) 0%, var(--dark-purple) 100%);
+  }
+
+  section span {
+    min-width: 90%;
+  }
+}
 </style>
