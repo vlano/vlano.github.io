@@ -21,9 +21,9 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  if (screen.width < 900)
+  if (window.innerWidth < 900) {
     return;
-
+  }
   if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
     document.getElementById("navbar").style.backgroundColor = "rgba(0, 0, 0, 0.6)";
     document.getElementById("navbar").style.paddingTop = "0";
@@ -38,8 +38,8 @@ function scrollFunction() {
 
 <template>
   <nav id="navbar">
-    <img id="logo" src="/logo.svg" @click="ScrollToTop()"/>
     <div id="menuContainer">
+      <img id="logo" src="/logo.svg" @click="ScrollToTop()"/>
       <a href="#header">Home</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
@@ -198,12 +198,16 @@ img {
   nav {
     position: absolute;
     width: 100%;
-    padding-top: 4.5rem;
+    padding-top: 0rem;
     z-index: 15;
     transition: 0.4s;
   }
 
   #menuContainer {
+    background: none;
+  }
+
+  #menuContainer a {
     display: none;
   }
 
@@ -227,6 +231,7 @@ img {
     width: 9rem;
     height: 9rem;
     position: absolute;
+    top: 3rem;
     left: 1rem;
     cursor: pointer;
     transition: 0.4s;
