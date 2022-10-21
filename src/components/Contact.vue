@@ -1,7 +1,8 @@
 <template>
   <section>
     <span class="titleText">Want to work together ?</span>
-    <span class="subText">If you want to see your vision become reality contact me at <u>norbert.vladika@gmail.com</u>.</span>
+    <span
+        class="subText">If you want to see your vision become reality contact me at <u>norbert.vladika@gmail.com</u></span>
   </section>
 </template>
 
