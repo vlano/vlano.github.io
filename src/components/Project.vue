@@ -83,8 +83,8 @@ span {
     background-color: var(--turquoise);
     bottom: 0;
     right: 0;
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     filter: grayscale(100%);
     transition: 0.5s;
   }
@@ -130,7 +130,7 @@ span {
     letter-spacing: 0.2rem;
     text-transform: uppercase;
     position: absolute;
-    bottom: 20.5rem;
+    bottom: 16rem;
   }
 
   .link:hover {

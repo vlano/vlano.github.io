@@ -239,6 +239,7 @@ img {
   #mainText {
     margin-top: 24rem;
     margin-left: 1rem;
+    margin-right: 1rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -252,6 +253,7 @@ img {
   .subText {
     font-size: 2rem;
     font-weight: 400;
+    margin-right: 1rem;
   }
 
   .socials {

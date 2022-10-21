@@ -64,7 +64,7 @@ section span {
     padding-left: 1rem;
     padding-top: 7rem;
     color: black;
-    height: 50rem;
+    height: 26rem;
     background: linear-gradient(90deg, var(--turquoise) 0%, var(--dark-purple) 100%);
   }
 

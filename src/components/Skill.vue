@@ -63,7 +63,7 @@ img {
   }
 
   .skill span {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 1rem;
     margin-left: auto;
     color: var(--white);

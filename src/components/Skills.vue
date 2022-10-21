@@ -27,4 +27,11 @@ section {
   background: linear-gradient(90deg, var(--dark-purple) 0%, var(--dark-blue) 100%);
 }
 
+@media screen and (max-width: 900px) {
+  section {
+    height: 8rem;
+  }
+}
+
+
 </style>
