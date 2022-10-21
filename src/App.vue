@@ -227,17 +227,17 @@ img {
   }
 
   #logo {
-    width: 9rem;
-    height: 9rem;
+    width: auto;
+    height: 6rem;
     position: absolute;
     top: 3rem;
-    left: 1rem;
+    left: 2rem;
     cursor: pointer;
     transition: 0.4s;
   }
 
   #mainText {
-    margin-top: 24rem;
+    margin-top: 12rem;
     margin-left: 1rem;
     margin-right: 1rem;
     font-weight: 700;
