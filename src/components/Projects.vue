@@ -25,6 +25,8 @@
             traditional folk outfit and they could control a virtual folk-band based on traditional musical instrument
             stems." imageUrl="/projectPhotos/SokacHaz/instruments.png"
                siteUrl="http://www.mohacsisokackor.hu/interaktiv-kiallitohely_en/"/>
+      <Project title="Unannounced Project" description="Created an application for the exhibition center where visitors can see the animals in AR. Also hikers can use the application on a path where they will automatically encounter minigames and learn facts about the forest." imageUrl="/projectPhotos/Forest/forest.jpg"
+               siteUrl="/"/>
     </div>
   </section>
 </template>
