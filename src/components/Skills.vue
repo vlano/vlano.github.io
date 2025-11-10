@@ -1,10 +1,9 @@
 <template>
   <section>
-    <Skill title="Unity" imageUrl="/unityLogo.svg" experience="5+ years"/>
-    <Skill title="C#" imageUrl="/cSharpLogo.svg" experience="5+ years"/>
-    <Skill title="Git" imageUrl="/gitLogo.svg" experience="5+ years"/>
-    <Skill title="JavaScript" imageUrl="/jsLogo.svg" experience="3+ years"/>
-    <Skill title="Vue.js" imageUrl="/vueLogo.svg" experience="2+ years"/>
+    <Skill title="Unity" imageUrl="/unityLogo.svg" experience=""/>
+    <Skill title="C#" imageUrl="/cSharpLogo.svg" experience=""/>
+    <Skill title="Git" imageUrl="/gitLogo.svg" experience=""/>
+    <Skill title="XR" imageUrl="/xr-icon.svg" experience=""/>
   </section>
 </template>
 

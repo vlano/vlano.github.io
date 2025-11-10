@@ -41,7 +41,6 @@ function scrollFunction() {
     <div id="menuContainer">
       <img id="logo" src="/logo.svg" @click="ScrollToTop()"/>
       <a href="#header">Home</a>
-      <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </div>
